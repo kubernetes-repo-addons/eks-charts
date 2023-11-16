@@ -7,7 +7,7 @@ on:
 jobs:
   ci:
     runs-on: ubuntu-latest
-    if: github.repository == 'kubernates-repo-addons/eks-charts'
+    if: github.repository == 'kubernetes-repo-addons/eks-charts'
     steps:
       -
         name: Checkout
